@@ -32,9 +32,9 @@ def torsion_angle(line1,line2,line3,line4):
     vertical_v3=cross_p(vertical_v1,vertical_v2)
     da=angle(vertical_v1,[0.0,0.0,0.0],vertical_v2)
     if vertical_v3[0]*V32[0] < 0:
-        da*=-1
+        ta*=-1
     
-    return da
+    return ta
 
 
 
